@@ -1,4 +1,4 @@
-package Clear;
+package clear;
 
 /*
 문제 설명
@@ -19,7 +19,7 @@ a	b	flag	result
 예제 2번에서 flag가 false이므로 a - b = (-4) - 7 = -11을 return 합니다.
  */
 
-public class Lv0_37 {
+public class Lv0_36 {
     public int solution(int a, int b, boolean flag) {
         return flag == true ? a +b : a-b;
     }
