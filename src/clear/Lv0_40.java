@@ -35,4 +35,3 @@ public class Lv0_40 {
     }	
 }
 
-

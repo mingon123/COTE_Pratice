@@ -44,3 +44,4 @@ public class Lv0_38 {
     	return sum;
     }
 }
+

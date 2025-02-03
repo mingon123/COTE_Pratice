@@ -37,3 +37,4 @@ public class Lv0_39 {
     	else return (a+b+c) * (a*a + b*b + c*c);
     }
 }
+

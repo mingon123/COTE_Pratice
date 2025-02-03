@@ -34,3 +34,4 @@ public class Lv0_41 {
         return Integer.parseInt(odd)+Integer.parseInt(even);   
     }
 }
+
