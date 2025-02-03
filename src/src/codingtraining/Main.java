@@ -1,4 +1,4 @@
-package codingtraining;
+package src.codingtraining;
 
 public class Main {
 	
