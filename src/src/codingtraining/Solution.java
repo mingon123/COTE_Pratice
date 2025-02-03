@@ -1,8 +1,8 @@
 package src.codingtraining;
 
 class Solution {
-    public int solution(int a, int b, int c) {
-        int answer = 0;
+    public int[] solution(int[] num_list) {
+        int[] answer = {};
         return answer;
     }
 }
