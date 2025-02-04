@@ -1,4 +1,4 @@
-package clear;
+package clear.d0203;
 
 /*
 flag에 따라 다른 값 반환하기
