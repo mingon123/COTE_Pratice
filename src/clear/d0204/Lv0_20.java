@@ -1,4 +1,4 @@
-package clear;
+package clear.d0204;
 
 import java.util.Scanner;
 
@@ -21,15 +21,15 @@ AbCdEfG
  */
 
 public class Lv0_20 {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        String a = sc.next();
-    
-        for (int i = 0; i < a.length(); i++) {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String a = sc.next();
+
+		for (int i = 0; i < a.length(); i++) {
 			char c = a.charAt(i);
 			if ( c>='A' && c<='Z' ) System.out.print( Character.toLowerCase(c) );
 			else System.out.print( Character.toUpperCase(c) );
 		}
-    }
+	}
 }
 

@@ -1,4 +1,4 @@
-package clear;
+package clear.d0204;
 
 /*
 주사위 게임 2

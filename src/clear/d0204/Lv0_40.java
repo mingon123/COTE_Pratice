@@ -1,4 +1,4 @@
-package clear;
+package clear.d0204;
 
 /*
 원소들의 곱과 합

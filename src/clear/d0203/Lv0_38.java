@@ -1,4 +1,4 @@
-package clear;
+package clear.d0203;
 
 /*
 등차수열의 특정한 항만 더하기

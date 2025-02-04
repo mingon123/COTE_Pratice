@@ -1,4 +1,4 @@
-package clear;
+package clear.d0204;
 
 /*
 수 조작하기 1
