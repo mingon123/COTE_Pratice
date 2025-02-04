@@ -1,4 +1,4 @@
-package clear;
+package clear.d0204;
 
 /*
 이어 붙인 수

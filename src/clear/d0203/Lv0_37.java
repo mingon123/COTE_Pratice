@@ -1,4 +1,4 @@
-package clear;
+package clear.d0203;
 
 /*
 코드 처리하기
