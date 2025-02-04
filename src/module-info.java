@@ -1,8 +1,0 @@
-/**
- * 
- */
-/**
- * 
- */
-module COTE_Pratice {
-}

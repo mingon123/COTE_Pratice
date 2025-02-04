@@ -1,4 +1,4 @@
-package codingtraining;
+package src.codingtraining;
 
 import java.io.BufferedReader;
 import java.io.IOException;
