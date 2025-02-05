@@ -1,4 +1,4 @@
-package days02;
+package programmers.days0204;
 /*
  * 문제 설명
 A반 학생들은 시험이 끝난 뒤 성적이 나오기 전 자기 시험지를 가채점해 보았습니다. 

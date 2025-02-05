@@ -1,4 +1,4 @@
-package days02;
+package programmers.days0204;
 
 /*
  * 문제 설명

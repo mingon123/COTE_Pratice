@@ -1,4 +1,4 @@
-package days02;
+package programmers.days0204;
 /*
  * 문제 설명
 진우는 돈을 모으기 위해 저축을 하려고 합니다. 목표로 하는 금액은 100만 원이며, 
