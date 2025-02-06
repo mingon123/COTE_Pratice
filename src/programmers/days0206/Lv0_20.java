@@ -1,6 +1,6 @@
-package programmers.solution;
-
+package programmers.days0206;
 /*
+ 
  문제 설명
 문자열 code가 주어집니다.
 code를 앞에서부터 읽으면서 만약 문자가 "1"이면 mode를 바꿉니다. mode에 따라 code를 읽어가면서 문자열 ret을 만들어냅니다.
@@ -17,30 +17,10 @@ code[idx]가 "1"이면 mode를 1에서 0으로 바꿉니다.
 
 단, 시작할 때 mode는 0이며, return 하려는 ret가 만약 빈 문자열이라면 대신 "EMPTY"를 return 합니다.
 
+
 code	         result
 "abc1abc1abc"	"acbac"
-*/
+ */
+public class Lv0_20 {
 
-public class Solution {
-
-	  String code = "abc1abc1abc";
-	  String ret;
-	  int idx = 0;
-	  int mode = 0;
-	  
-	 
-	  public String solution(String code) {
-		  String answer = "";
-		  ret = code.toCharArray();
-		  while(idx < code.length) {
-			  if(mode == 0) {
-
-				  
-				  idx++;
-  
-			  }
-		  }
-		  return answer;
-	  }
 }
-	
