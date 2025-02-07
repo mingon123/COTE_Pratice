@@ -1,6 +1,6 @@
-package programmers.days0206;
+package programmers.days0207;
 /*
- 
+
  문제 설명
 문자열 code가 주어집니다.
 code를 앞에서부터 읽으면서 만약 문자가 "1"이면 mode를 바꿉니다. mode에 따라 code를 읽어가면서 문자열 ret을 만들어냅니다.
@@ -23,4 +23,53 @@ code	         result
  */
 public class Lv0_20 {
 
-}
+//	public static void main(String[] args) {
+//		String code = "abc1abc1abc";
+//		Solution s = new Solution();
+//		s.solution(code); 
+//		System.out.println(s.ret); // acbac
+//
+//	}
+
+
+		
+		public String solution(String code) {
+			String ret;
+			int idx = 0;
+			int mode = 0;
+			
+			ret = "";
+			System.out.println(code);
+			while(idx < code.length()) {
+				char a = code.charAt(idx);
+				 
+				if((a == '1'))
+				{
+					mode = 1 - mode;
+					idx++;
+					continue;
+					
+				}
+				if(mode == 0) {
+					if((idx % 2) == 0) {
+						
+						ret += a;
+					}
+				}
+				else if(mode == 1){
+
+					
+					if((idx % 2) == 1) {
+						ret += a;
+					}
+				}
+					idx++;
+				}
+			return ret.isEmpty() ? "EMPTY": ret;
+			}
+	}
+
+
+	
+
+	

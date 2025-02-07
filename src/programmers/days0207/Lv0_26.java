@@ -1,4 +1,4 @@
-package programmers.solution;
+package programmers.days0207;
 
 
 
@@ -19,13 +19,10 @@ control의 앞에서부터 순서대로 문자에 따라 n의 값을 바꿉니�
 1 ≤ control의 길이 ≤ 100,000
 control은 알파벳 소문자 "w", "a", "s", "d"로 이루어진 문자열입니다.
 입출력 예
-n	 control      	result
+n	 control	        result
 0	"wsdawsdassw"	-1
-*/
+ */
+public class Lv0_26 {
 
-public class Solution {
 	
-
-        
 }
-	

@@ -23,7 +23,7 @@ public class Lv0_18 {
 //	int n = 20;
 //	int m = 50;
 	
-	// 솔직히 이건 풀긴 했는데 왜 됐는지 모르겠다 ㅋㅋㅋㅋㅋㅋㅋㅋㅋ
+	// 솔직히 이건 풀긴 했는데 왜 됐는지 모르겠다 ㅋㅋㅋㅋㅋㅋㅋㅋㅋ 다시 풀어보기
 	public int solution(String ineq, String eq, int n, int m) {
         int answer = 0;
         if(ineq.equals("<") && n <= m && eq.equals("=") != eq.equals("!")) {
