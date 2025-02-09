@@ -30,6 +30,7 @@ query의 값	query 처리 전	query 처리 후	비고
 2	[1, 2, 3, 4]	[1, 2, 3]	2번 인덱스의 쿼리이므로 뒷부분을 자른다.
 따라서 [1, 2, 3]을 return 합니다.
  */
+
 import java.util.ArrayList;
 import java.util.List;
 

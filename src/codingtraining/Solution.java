@@ -1,14 +1,13 @@
 package codingtraining;
 
-//78
+// 88
 
 class Solution {
-    public int[] solution(int[] num_list, int n) {
-        int[] answer = {};
+    public int solution(int[] arr) {
+        int answer = 0;
         return answer;
     }
 }
 
-
-// 문제 요약 : num_list의 a < idx n < z라고 하면 n부터 잘라서 n<z<a 순으로 오도록 만들어라
+// 문제 요약
 
