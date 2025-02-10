@@ -1,9 +1,6 @@
-package programmers.solution;
-
-
+package programmers.days0209;
 
 /*
-
 
 문제 설명
 정수 배열 arr와 2차원 정수 배열 queries이 주어집니다. queries의 원소는 각각 하나의 query를 나타내며, [s, e, k] 꼴입니다.
@@ -20,21 +17,11 @@ package programmers.solution;
 0 ≤ s ≤ e < arr의 길이
 0 ≤ k ≤ 1,000,000
 입출력 예
-arr	             queries	                     result
+arr	               queries	                     result
 [0, 1, 2, 4, 3]	[[0, 4, 2],[0, 3, 2],[0, 2, 2]]	[3, 4, -1]
- 
-*/
-public class Solution {
+ */
+public class Lv0_29 {
 	
-	int [] arr = {0,1,2,4,3};
-	int [][] queries = { {0,4,2},{0,3,2},{0,2,2} };
-	// [0][0] = 0 [0][1] = 4 [0][2] = 2
-	// [1][0] = 0 [1][1] = 3 [1][2] = 2
-	// [2][0] = 0 [2][1] = 2 [2][2] = 2
-	 public int[] solution(int[] arr, int[][] queries) {
-	        int[] answer = {};
-	        return answer;
-	    }
 	
+
 }
-	

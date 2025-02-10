@@ -1,4 +1,4 @@
-package programmers.days0207;
+package programmers.days0208;
 
 
 
@@ -24,5 +24,34 @@ n	 control	        result
  */
 public class Lv0_26 {
 
+
+	String control = "wsdawsdassw";
+	int n = 0;
+	
+	
+	public int solution(int n, String control) {
+	       int answer = 0;
+	       
+	       
+	       
+	       for(int i = 0; i < control.length(); i++) {
+	    	   if(control.charAt(i) == 'w') {
+	    		   n += 1;
+	    	   }
+	    	   else if(control.charAt(i) == 's'){
+	    		   n -= 1;
+	    		
+	    	   }
+	    	   else if(control.charAt(i) == 'd') {
+	    		   n += 10;
+	    	   }
+	    	   else if(control.charAt(i) == 'a' ) {
+	    		   n -= 10;
+	    	   }
+	       }
+	       return answer = n;
+	       
+	}
+        
 	
 }
