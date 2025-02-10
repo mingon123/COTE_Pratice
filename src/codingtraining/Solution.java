@@ -1,21 +1,24 @@
 package codingtraining;
-//103
-import java.util.ArrayList;
-import java.util.List;
+
+import java.util.Arrays;
 
 class Solution {
-    public String[] solution(String myString) {
-    	List<String> list = new ArrayList<>();
-    	for (String s : myString.split("x")) {
-			list.add(s);
+    public int[] solution(int[] arr) {
+        for (int i = 0; i < arr.length; i++) {
+			Arrays.toString(arr).charAt(i);
 		}
-    	list.sort(null);
-    	return list.toArray(String[]::new);
+    	
+    	int[] answer = {};
+        return answer;
     }
 }
 
-// 문제 요약 : myString "x" 기준으로 잘라서 사전순으로 정렬('x'포함x)
+// 문제 요약 : 빈 배열'X', 양수배열 arr의 원소 a를 a번 추가
 
+
+
+
+// 108
 
 
 
