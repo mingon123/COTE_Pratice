@@ -1,4 +1,4 @@
-package programmers.solution;
+package programmers.days0210;
 
 import java.util.ArrayList;
 
@@ -15,8 +15,7 @@ l	r	result
 5	555	[5, 50, 55, 500, 505, 550, 555]
 10	20	[-1]
  */
-public class Solution{
-
+public class Lv0_31 {
 	int l = 5;
 	int r = 555;
 
