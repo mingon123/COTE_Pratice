@@ -1,24 +1,25 @@
 package codingtraining;
 
+import java.util.ArrayList;
+import java.util.List;
+
 class Solution {
-    public int[] solution(int[] arr, int k) {
-        int[] answer = {};
-        return answer;
+    public int[] solution(int[] arr) {
+        List<Integer> list = new ArrayList<>();
+        int i = 1;
+        for (Integer integer : arr) list.add(integer);
+        while(list.size() <= (i&(i-1))) {
+        	list.add(0);
+        	i++;
+        }
+        return list.stream().mapToInt(Integer::intValue).toArray();
     }
 }
 
-// 문제 요약 : 0,1로 이루어진 배열 arr를 이용한 새 배열 stk. i초기값 0, i가 arr 길이보다 작으면 반복
-// 			stk 빈배열 : stk + arr[i], i+1
-//			stk 빈배열X, stk.length-1==arr[i] : remove(stk.length-1), i++
-//			stk 빈배열X, skt.length-1!=arr[i] : add(arr[i]), i++
-//			빈배열 : -1 리턴
+// 문제 요약 : arr의 '길이'가 2의 거듭제곱이 되도록 arr뒤에 정수 0추가. 0을 최소로 추가하여 배열반환
 
 
 
-
-// 110
-
-
-
+// 112
 
 
