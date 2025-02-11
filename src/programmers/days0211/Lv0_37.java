@@ -1,9 +1,4 @@
-package programmers.solution;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-
-/*
+package programmers.days0211;
 /*
 
 문제 설명
@@ -15,16 +10,17 @@ my_string	                     index_list	                             result
 "cvsgiorszzzmrpaqpe"	    [16, 6, 5, 3, 12, 14, 11, 11, 17, 12, 7]	"programmers"
 "zpiaz"	                    [1, 2, 0, 0, 3]	                            "pizza"
  */
-class Solution {
-	
-	public String solution(String my_string, int[] index_list) {
-		String answer = "";
+public class Lv0_37 {
+
+	class Solution {
 		
-		for(int num : index_list) {
-			answer += my_string.charAt(num);
+		public String solution(String my_string, int[] index_list) {
+			String answer = "";
+			
+			for(int num : index_list) {
+				answer += my_string.charAt(num);
+			}
+			return answer;
 		}
-		return answer;
 	}
 }
-
-

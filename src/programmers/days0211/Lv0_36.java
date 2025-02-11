@@ -1,4 +1,7 @@
 package programmers.days0211;
+
+import java.util.Arrays;
+
 /*
 
 문제 설명
@@ -21,4 +24,45 @@ a	b	c	d	result
  */
 public class Lv0_36 {
 
+public class Solution{
+
+	
+	 public int solution(int a, int b, int c, int d) {
+	        int answer = 0;
+	        int [] dice = {a,b,c,d};
+	        Arrays.sort(dice);
+	        
+	        if(dice[0] == dice[3]) {
+	        	
+	        	return answer = 1111 * dice[0];
+	        	
+	        }if (dice[0] == dice[2] && dice[2] != dice[3]) {
+	            return (int) Math.pow((10 * dice[0]) + dice[3], 2);
+	        }
+	        else if (dice[1] == dice[3] && dice[0] != dice[1]) {
+	            return (int) Math.pow((10 * dice[1]) + dice[0], 2);
+	        }
+	        else if ((dice[0] == dice[1]) && (dice[2] == dice[3])) {
+	        
+	        	int p = dice[0];
+	        	int q = dice[3];
+	        	return answer = (p+q) * Math.abs(p-q);
+	        	
+	        }	
+	        // 4. 두 개가 같고 나머지 두 개가 서로 다를 때
+	        else if (dice[0] == dice[1]) {
+	            return answer = dice[2] * dice[3];
+	        } 
+	        else if (dice[1] == dice[2]) {
+	            return answer = dice[0] * dice[3];
+	        } 
+	        else if (dice[2] == dice[3]) {
+	            return answer = dice[0] * dice[1];
+	        }
+	        
+	        else 
+	        	return answer = dice[0];
+	        	
+	        
+		}}
 }
