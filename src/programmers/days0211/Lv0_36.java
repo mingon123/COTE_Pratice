@@ -1,9 +1,4 @@
-package programmers.solution;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-
-/*
+package programmers.days0211;
 /*
 
 문제 설명
@@ -15,7 +10,7 @@ import java.util.Arrays;
 어느 두 주사위에서 나온 숫자가 p로 같고 나머지 두 주사위에서 나온 숫자가 각각 p와 다른 q, r(q ≠ r)이라면 q × r점을 얻습니다.
 네 주사위에 적힌 숫자가 모두 다르다면 나온 숫자 중 가장 작은 숫자 만큼의 점수를 얻습니다.
 네 주사위를 굴렸을 때 나온 숫자가 정수 매개변수 a, b, c, d로 주어질 때, 얻는 점수를 return 하는 solution 함수를 작성해 주세요.
- 
+
 입출력 예
 a	b	c	d	result
 2	2	2	2	2222
@@ -24,35 +19,6 @@ a	b	c	d	result
 2	5	2	6	30
 6	4	2	5	2
  */
+public class Lv0_36 {
 
-
-public class Solution{
-
-	
-	
-	public int solution(int a, int b, int c, int d) {
-        int answer = 0;
-        int [] dice = {a,b,c,d};
-        Arrays.sort(dice);
-        
-        if(dice[0] == dice[3]) {
-        	
-        	return answer = 1111 * dice[0];
-        	
-        }else if((dice[0] == dice[2]) &&(dice[3] != dice[0])) {
-        	return answer = (int) Math.pow(10 * dice[0] + 2 , 2);
-        }
-        else if ((dice[0] == dice[1]) != (dice[2] == dice[3])) {
-        	int s = dice[0] - dice [3];
-        	return answer =  (dice[0] + dice [3]) * (int) Math.abs(s);
-        }
-        else if ((dice[0] == dice[1]) && (dice[2] != dice[3]) && dice[0] != dice[2] && dice[0] != dice[3]){
-        	return answer = dice[2] * dice[3];
-        	
-        }
-        else 
-        	return dice[0];
-        	
-        
-	}
 }
