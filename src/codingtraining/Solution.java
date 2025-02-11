@@ -1,24 +1,22 @@
 package codingtraining;
 
-import java.util.Arrays;
-
 class Solution {
-    public int[] solution(int[] arr) {
-        for (int i = 0; i < arr.length; i++) {
-			Arrays.toString(arr).charAt(i);
-		}
-    	
-    	int[] answer = {};
+    public int[] solution(int[] arr, int k) {
+        int[] answer = {};
         return answer;
     }
 }
 
-// 문제 요약 : 빈 배열'X', 양수배열 arr의 원소 a를 a번 추가
+// 문제 요약 : 0,1로 이루어진 배열 arr를 이용한 새 배열 stk. i초기값 0, i가 arr 길이보다 작으면 반복
+// 			stk 빈배열 : stk + arr[i], i+1
+//			stk 빈배열X, stk.length-1==arr[i] : remove(stk.length-1), i++
+//			stk 빈배열X, skt.length-1!=arr[i] : add(arr[i]), i++
+//			빈배열 : -1 리턴
 
 
 
 
-// 108
+// 110
 
 
 
