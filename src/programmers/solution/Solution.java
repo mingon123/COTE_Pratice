@@ -1,30 +1,37 @@
 package programmers.solution;
 
+import java.io.CharArrayReader;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-/*
-/*
 
+/*
 문제 설명
-문자열 my_string과 정수 배열 index_list가 매개변수로 주어집니다. 
-my_string의 index_list의 원소들에 해당하는 인덱스의 글자들을 순서대로 이어 붙인 문자열을 return 하는 solution 함수를 작성해 주세요.
+음이 아닌 정수를 9로 나눈 나머지는 그 정수의 각 자리 숫자의 합을 9로 나눈 나머지와 같은 것이 알려져 있습니다.
+이 사실을 이용하여 음이 아닌 정수가 문자열 number로 주어질 때, 이 정수를 9로 나눈 나머지를 return 하는 solution 함수를 작성해주세요.
 
-
-my_string	                     index_list	                             result
-"cvsgiorszzzmrpaqpe"	    [16, 6, 5, 3, 12, 14, 11, 11, 17, 12, 7]	"programmers"
-"zpiaz"	                    [1, 2, 0, 0, 3]	                            "pizza"
- */
+number	                   result
+"123"	                    6
+"78720646226947352489"	    2
+*/
 class Solution {
 	
-	public String solution(String my_string, int[] index_list) {
-		String answer = "";
-		
-		for(int num : index_list) {
-			answer += my_string.charAt(num);
-		}
-		return answer;
-	}
+	 String number = "123";
+	 
+	 public int solution(String number) {
+	        int answer = 0;
+	        int result = 0;
+	        
+	        
+	        
+	        
+	        for(int i = 0; i < number.length(); i++) {
+	        	char n = number.charAt(i);
+	        	result = n + '0';
+	        }
+	        return answer = (result % 9);
+	        
+	    }
 }
 
 
