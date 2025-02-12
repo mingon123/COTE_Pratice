@@ -1,4 +1,6 @@
-package programmers.days0211;
+package programmers.days0212;
+
+import java.math.BigInteger;
 
 /*
 문제 설명
@@ -11,4 +13,16 @@ number	                   result
 */
 public class Lv0_38 {
 
+
+	 public static int solution(String number) {
+	        int answer = 0;
+	      
+	        
+	        BigInteger b = new BigInteger(number);
+	        BigInteger result = b.mod(BigInteger.valueOf(9));
+	        
+	        
+	        return result.intValue();
+	        
+	    }
 }
