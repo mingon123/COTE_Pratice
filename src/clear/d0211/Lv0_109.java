@@ -1,4 +1,4 @@
-package clear.d2011;
+package clear.d0211;
 
 /*
 빈 배열에 추가, 삭제하기
