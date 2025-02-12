@@ -1,20 +1,18 @@
 package codingtraining;
 
+import java.util.ArrayList;
+import java.util.List;
+
 class Solution {
-    public int solution(String[] order) {
-    	int answer = 0;
-        for (String string : order) {
-        	if (string.contains("cafelatte")) answer += 5000;
-        	else answer += 4500;
-		} // foreach
-        return answer;
+    public int[] solution(int num, int total) {
+    	List<Integer> list = new ArrayList<>();
+
+    	return list.stream().mapToInt(Integer::intValue).toArray();
     }
 }
 
-// 문제 요약 : 아메리카노 : 4500, 카페 라테 : 5000 아무거나 : 아메리카노
-//			결제 금액(총액) 반환
-// 			마지막 글자 - americano, cafelatte, anything
+//문제 요약 : 연속된 수 num개를 더한 값이 total이 될 때, 정수 배열을 오름차순으로 정렬 후 반환
 
-// 132
+// 143
 
 

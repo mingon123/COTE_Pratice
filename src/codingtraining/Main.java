@@ -7,7 +7,8 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		int s = sc.nextInt();
 		
-		System.out.println(s-543);
+		System.out.println(5%3);
+		System.out.println(1%4);
 
 	}
 }
