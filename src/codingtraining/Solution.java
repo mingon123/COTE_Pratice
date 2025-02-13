@@ -1,18 +1,18 @@
 package codingtraining;
 
-import java.util.ArrayList;
-import java.util.List;
-
 class Solution {
-    public int[] solution(int num, int total) {
-    	List<Integer> list = new ArrayList<>();
-
-    	return list.stream().mapToInt(Integer::intValue).toArray();
+    public int solution(String[] s1, String[] s2) {
+        int answer = 0;
+        return answer;
     }
 }
 
-//문제 요약 : 연속된 수 num개를 더한 값이 total이 될 때, 정수 배열을 오름차순으로 정렬 후 반환
+//문제 요약 : num을 이루는 숫자 중 k가 있으면 num의 그 숫자가 있는 자리수 반환 없으면 -1 반환
 
-// 143
+
+
+
+
+// 150
 
 
