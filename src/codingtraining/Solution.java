@@ -1,20 +1,16 @@
 package codingtraining;
 
 class Solution {
-    public int solution(String my_string) {
-    	String [] parts = my_string.split(" ");
-    	int num = Integer.parseInt(parts[0]);
-    	
-    	return 0;
+    public int[] solution(int n) {
+        int[] answer = {};
+        return answer;
     }
 }
 
-//문제 요약 : my_string은 3+5형태. +,- 연산자만 존재,공백X. 수식 계산한 값 출력
+//문제 요약 : n의 약수 오름차순 배열로 리턴
 
 
 
-
-
-// 157
+// 160
 
 
