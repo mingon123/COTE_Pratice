@@ -1,15 +1,33 @@
 package codingtraining;
 
+import java.util.*;
+
 class Solution {
-    public int solution(int i, int j, int k) {
-        int answer = 0;
-        return answer;
+    public int solution(int[] schedules, int[][] timelogs, int startday) {
+    	int count = 0;
+    	int late;
+    	for (int i = 0; i < schedules.length; i++) {
+    		if(schedules[i]%100 <= 50) late = schedules[i] + 10;    			
+    		else late = schedules[i] + 100 - 60 + (60-schedules[i]%100);
+  
+			boolean l = false;
+			
+			for (int j = 0; j < timelogs[i].length; j++) {
+				if(startday<=5 && timelogs[i][j] <= late) {
+					l = true;
+				} else {
+					l = false;
+					break;
+				};
+			} // for j
+			if(l) count++;
+		} // for i
+    	return count;
     }
 }
 
-//문제 요약 : i부터 j까지 k의 등장횟수, 1은 1로 11은 2로 판단
 
-
+// 12
 // 170
 
 
